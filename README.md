@@ -1,11 +1,10 @@
-# Business Command Center
+# Moorvio
 
-![Leonard E. Moore — Business Command Center](assets/command-center-cover.webp)
+![Moorvio by Leonard E. Moore](assets/moorvio-cover.webp)
 
-**People. Systems. Revenue. Freedom.**
+**Your businesses. One clear view.**
 
-The official public project website and brand kit for Leonard E. Moore's Business
-Command Center. The application brings business profiles, leads, projects,
+The official public project website and brand kit for Moorvio, the business workspace by Leonard E. Moore. The application brings business profiles, leads, projects,
 tasks, invoices, recorded payments, portal tools and preparation workflows into
 one workspace.
 
@@ -29,22 +28,18 @@ python -m http.server 8080
 
 Then open http://localhost:8080.
 
-## Website preview
-
-![Live Business Command Center website](assets/site-preview.jpg)
-
 ## Brand kit
 
-- [Cover artwork, 1536 × 1024 WebP](assets/command-center-cover.webp)
+- [Cover artwork, 1536 × 1024 WebP](assets/moorvio-cover.webp)
 - Midnight navy: `#0A0A23`
 - Signature gold: `#FFD700`
 - Display gold: `#E5BD70`
 - Ivory: `#F4F1E9`
 
 The original cover was created with the built-in image-generation tool.
-Creative brief: luxury navy-and-gold Business Command Center branding for
-Leonard E. Moore; Chicago-inspired architectural BCC emblem; exact name and
-“People • Systems • Revenue • Freedom” tagline; no dashboard metrics or devices.
+Creative brief: luxury navy-and-gold Moorvio branding by
+Leonard E. Moore; Chicago-inspired architectural M emblem; exact name and
+“Your businesses. One clear view.” tagline; no dashboard metrics or devices.
 The WebP is a web-optimized format conversion of the generated cover.
 
 ## Development status
@@ -72,3 +67,10 @@ The static website code (HTML, CSS, favicon SVG) is available under
 trademarks are excluded from that code license and reserved to Leonard E. Moore,
 to the extent rights exist. No license to use the brand as your own is granted.
 The private application is not relicensed or disclosed by this repository.
+
+## Brand transition
+
+Moorvio is the new product name for the Business Command Center. Existing
+repository and GitHub Pages addresses stay the same so current links keep working.
+Pronunciation: more-vee-oh. Naming is a branding decision; domain and trademark
+availability have not been established.

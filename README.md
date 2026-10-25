@@ -28,6 +28,10 @@ python -m http.server 8080
 
 Then open http://localhost:8080.
 
+## Website preview
+
+![Live Moorvio website](assets/moorvio-site-preview.jpg)
+
 ## Brand kit
 
 - [Cover artwork, 1536 × 1024 WebP](assets/moorvio-cover.webp)

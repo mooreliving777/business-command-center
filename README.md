@@ -15,7 +15,7 @@ separate private application repository.
 
 ## Website
 
-GitHub Pages project address (once Pages deployment completes):
+Live GitHub Pages website:
 https://mooreliving777.github.io/business-command-center/
 
 The site uses plain HTML and CSS, local artwork, no JavaScript dependencies,
@@ -28,6 +28,10 @@ python -m http.server 8080
 ```
 
 Then open http://localhost:8080.
+
+## Website preview
+
+![Live Business Command Center website](assets/site-preview.jpg)
 
 ## Brand kit
 

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mooreliving777.github.io/business-command-center/sitemap.xml

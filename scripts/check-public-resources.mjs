@@ -8,7 +8,7 @@ const css=read('resources.css');
 const js=read('resources.js');
 const rows=[...html.matchAll(/<li class="resource-row" data-group="([^"]+)" data-recommended="(true|false)" data-search="[^"]+">/g)];
 const websiteLinks=[...html.matchAll(/<a class="resource-visit" href="([^"]+)" target="_blank" rel="noopener noreferrer external"/g)];
-const options=[...html.matchAll(/<option value="[^"]+">/g)];
+const options=[...html.matchAll(/<option value="[^"]*">/g)];
 
 assert.equal(rows.length,52,'Public catalog must include all 52 items');
 assert.equal(rows.filter(row=>row[2]==='true').length,21,'Recommended count must stay curated');

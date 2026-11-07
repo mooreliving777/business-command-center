@@ -17,8 +17,7 @@ separate private application repository.
 Live GitHub Pages website:
 https://mooreliving777.github.io/business-command-center/
 
-The site uses plain HTML and CSS, local artwork, no JavaScript dependencies,
-no analytics, no cookies and no data collection forms.
+The site uses plain HTML and CSS, local artwork, and a tiny vanilla-JavaScript filter on its public resources page. It has **no runtime dependencies, external analytics, cookies, forms, or account connections**.
 
 To preview locally:
 
@@ -27,6 +26,12 @@ python -m http.server 8080
 ```
 
 Then open http://localhost:8080.
+
+## Public Resources Directory
+
+- [Moorvio Resources](https://mooreliving777.github.io/business-command-center/resources.html) — a separate public directory of 52 curated third-party resources for entrepreneurs, with local search, six categories and eight-at-a-time discovery.
+- This page is an informational reference, **not** the private AI Tools registry, a CRM login, or an API connection. No subscriptions or usage charges are triggered by the directory.
+- Third-party terms, pricing, commercial rights and free access vary; verify with each provider.
 
 ## Website preview
 

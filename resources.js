@@ -1,4 +1,4 @@
-/* Local-only filtering. No analytics, cookies, storage, fetch or third-party scripts. */
+/* Local-only filtering. No analytics, cookies, storage, network requests or external scripts. */
 (() => {
   const rows=Array.from(document.querySelectorAll('.resource-row'));
   const search=document.getElementById('resource-search');

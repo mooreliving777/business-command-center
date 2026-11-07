@@ -1,0 +1,28 @@
+name: Moorvio landing draft review
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  static-browser-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install test-only browser client
+        run: npm install --no-save --package-lock=false playwright@1.56.1
+      - name: Verify responsive ten-section public showcase without external requests
+        run: node scripts/landing-smoke.mjs
+      - name: Store private review captures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: moorvio-review-screenshots
+          path: artifacts/
+          if-no-files-found: ignore
+          retention-days: 7
